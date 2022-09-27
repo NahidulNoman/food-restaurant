@@ -4,7 +4,7 @@ import MealDb from './components/nav/MealDb/MealDb';
 import Nav from './components/nav/Nav';
 
 function App() {
-  const [search , setSearch] = useState('a')
+  const [search , setSearch] = useState('')
   return (
     <div>
       <Nav search={search} setSearch={setSearch}></Nav>

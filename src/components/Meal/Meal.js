@@ -14,7 +14,7 @@ const Meal = (props) => {
                         <small className='fw-bold'>Area : {strArea}</small>
                         <small className='fw-bold'>Category : {strCategory}</small> <br />
                         {strInstructions?strInstructions.slice(0,50):'NO strInstructions Here.'}</p>
-                    <span  onClick={() =>handler(meal)} className="btn btn-primary">Go somewhere</span>
+                    <span  onClick={() =>handler(meal)} className="btn btn-primary">Select Your Food</span>
                 </div>
                 </div>
         </div>

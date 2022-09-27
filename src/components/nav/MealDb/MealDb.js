@@ -38,7 +38,7 @@ const MealDb = ({search}) => {
 
             <div className='meal col-9'>
                 {
-                    meals.map(meal => <Meal
+                    meals?.map(meal => <Meal
                     meal={meal}
                     handler = {handler}
                     key={meal.idMeal}
